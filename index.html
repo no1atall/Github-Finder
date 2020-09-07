@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script
+      src="https://code.jquery.com/jquery-3.1.1.min.js"
+      crossorigin="anonymous"
+    ></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/semantic.min.css"
+      integrity="sha512-8bHTC73gkZ7rZ7vpqUQThUDhqcNFyYi2xgDgPDHc+GXVGHXq+xPjynxIopALmOPqzo9JZj0k6OqqewdGO3EsrQ=="
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <h1 class="ui center aligned teal block header">Github Username Finder</h1>
+    <div class="ui hidden divider"></div>
+    <div class="ui container">
+      <div class="ui center aligned grid" id="card">
+          <div class="sixteen wide column">
+
+              <div class="content">
+                <h2 class="center aligned header">Search Github Users</h2>
+                <p class="ui small teal center aligned header">
+                  Enter a username to fetch a user's 
+                </p>
+                <p class="ui small teal center aligned header">profile and repos</p>
+              </div>
+          </div>
+        <div class="three wide column"></div>
+        <div class="ten wide column">
+            <form class="ui form" id="anchor">
+              <div class="field" id="input-segment">
+                <div class="segment" >
+                  <input type="text" name="username" placeholder="Username" />
+                </div>
+              </div>
+              <div class="ui hidden divider" id="insert"></div>
+              
+              
+            </form>
+        </div>
+        <div class="three wide column"></div>
+        
+        <div class="sixteen wide column" id="profile">
+            
+        </div>
+        
+        
+      </div>
+    </div>
+    <div class="ui hidden divider"></div>
+    <h5 class="ui center aligned teal block header">Github Username Finder ©</h1>
+
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/semantic.min.js"
+      integrity="sha512-dqw6X88iGgZlTsONxZK9ePmJEFrmHwpuMrsUChjAw1mRUhUITE5QU9pkcSox+ynfLhL15Sv2al5A0LVyDCmtUw=="
+      crossorigin="anonymous"
+    ></script>
+    <script src="github.js"></script>
+    <script src="ui.js"></script>
+    <script src="app.js"></script>
+  </body>
+</html>
